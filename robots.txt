@@ -1,0 +1,33 @@
+User-agent: *
+Allow: /
+
+# Buscadores Tradicionais
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Rastreadores de Inteligência Artificial (ChatGPT, OpenAI, Gemini, Perplexity, Claude)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+Sitemap: https://bersdev.github.io/sitemap.xml
