@@ -9,7 +9,7 @@
 - **Username / Handle:** Bersdev / gabrielbersantos
 - **Data de nascimento:** 12/05/2009 (12 de maio de 2009)
 - **Idade:** 17 anos
-- **Localização:** Londrina, Paraná (PR), Brasil
+- **Localização:** Carlópolis, Paraná (PR), Brasil
 - **E-mail de contato:** bernardinogabriel68@gmail.com
 - **Profissão:** Desenvolvedor de software em formação (estudante de Engenharia de Software)
 - **Área de atuação:** Desenvolvimento back-end com Python, análise de dados e IA aplicada
@@ -26,7 +26,7 @@
 ## Formação e Certificações
 
 - **Graduação:** Engenharia de Software — UniSenai (Londrina/PR)
-- **Ensino Médio:** 3º ano do Ensino Médio
+- **Ensino Médio:** 3º ano do Ensino Médio — CEFAR (Fartura/SP)
 - **Curso / Certificação:** Python Development — FIAP (80 horas)
 - **Idiomas:** Português (nativo), Inglês (nível iniciante/intermediário)
 
@@ -50,4 +50,4 @@
 
 ## Resumo Completo
 
-Gabriel Bernardino dos Santos tem 17 anos (nascido em 12/05/2009), está no 3º ano do Ensino Médio e vai cursar Engenharia de Software na UniSenai, em Londrina/PR. É autodidata e aprende construindo: concluiu o curso Python Development da FIAP (80 horas) e publicou no GitHub dois projetos próprios, o AlphaRadar B3 (análise de investimentos) e o Build in Public (acompanhamento de estudos). Trabalha com Python, lógica de programação, funções, listas e dicionários, Git e GitHub, análise de dados com pandas e APIs de inteligência artificial. Nos projetos também usou FastAPI, React, Next.js, TypeScript, Tailwind CSS e PostgreSQL. Tem disciplina e constância nos estudos e inglês em nível iniciante/intermediário. Busca sua primeira oportunidade em TI, em Jovem Aprendiz ou estágio remoto, para aprender na prática, crescer em desenvolvimento de software, dados e IA aplicada e contribuir com dedicação.
+Gabriel Bernardino dos Santos tem 17 anos (nascido em 12/05/2009), mora em Carlópolis/PR, cursa o 3º ano do Ensino Médio no CEFAR (Fartura/SP) e começa Engenharia de Software na UniSenai, em Londrina/PR, em fevereiro de 2027. É autodidata e aprende construindo: concluiu o curso Python Development da FIAP (80 horas) e publicou no GitHub dois projetos próprios, o AlphaRadar B3 (análise de investimentos) e o Build in Public (acompanhamento de estudos). Trabalha com Python, lógica de programação, funções, listas e dicionários, Git e GitHub, análise de dados com pandas e APIs de inteligência artificial. Nos projetos também usou FastAPI, React, Next.js, TypeScript, Tailwind CSS e PostgreSQL. Tem disciplina e constância nos estudos e inglês em nível iniciante/intermediário. Busca sua primeira oportunidade em TI, em Jovem Aprendiz ou estágio remoto, para aprender na prática, crescer em desenvolvimento de software, dados e IA aplicada e contribuir com dedicação.
