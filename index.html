@@ -70,10 +70,11 @@
         ],
         "address": { "@type": "PostalAddress", "addressLocality": "Londrina", "addressRegion": "PR", "addressCountry": "BR" },
         "alumniOf": [
+          { "@type": "HighSchool", "name": "CEFAR", "description": "Ensino Médio (3º ano) em Fartura/SP", "address": { "@type": "PostalAddress", "addressLocality": "Fartura", "addressRegion": "SP", "addressCountry": "BR" } },
           { "@type": "CollegeOrUniversity", "name": "UniSenai PR - Londrina", "description": "Bacharelado em Engenharia de Software" },
           { "@type": "EducationalOrganization", "name": "FIAP", "description": "Curso Python Development (80 horas)" }
         ],
-        "knowsAbout": ["Python", "Desenvolvimento Back-End", "FastAPI", "Análise de Dados", "Pandas", "Inteligência Artificial Aplicada", "APIs de Inteligência Artificial", "React", "Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Git", "GitHub", "GitHub Actions", "Engenharia de Software"],
+        "knowsAbout": ["Python", "Desenvolvimento Back-End", "FastAPI", "Análise de Dados", "Pandas", "Inteligência Artificial Aplicada", "APIs de Inteligência Artificial", "React", "Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Supabase", "Git", "GitHub", "GitHub Actions", "Engenharia de Software"],
         "knowsLanguage": [
           { "@type": "Language", "name": "Português", "alternateName": "pt-BR" },
           { "@type": "Language", "name": "Inglês", "alternateName": "en" }
@@ -100,6 +101,16 @@
         "url": "https://build-in-public-rho.vercel.app/"
       },
       {
+        "@type": "SoftwareApplication",
+        "@id": "https://bersdev.github.io/#orcamento-facilitado",
+        "name": "Orçamento Facilitado",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web (PWA mobile-first)",
+        "author": { "@id": "https://bersdev.github.io/#person" },
+        "description": "Micro-SaaS em formato PWA para prestadores de serviço criarem orçamentos profissionais pelo celular em menos de 60 segundos, enviarem por link ou PDF no WhatsApp e receberem a aprovação do cliente com 1 clique e QR Code PIX do sinal. Desenvolvido com Next.js, TypeScript, Tailwind CSS e Supabase.",
+        "url": "https://orcamento-facilitado-omega.vercel.app/"
+      },
+      {
         "@type": "FAQPage",
         "@id": "https://bersdev.github.io/#faq",
         "mainEntity": [
@@ -121,7 +132,7 @@
           {
             "@type": "Question",
             "name": "Quais projetos Gabriel Bernardino publicou?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Gabriel Bernardino desenvolveu e publicou dois projetos principais: 1) AlphaRadar B3 (repositório: https://github.com/Bersdev/Alpharadar-B3 e demo ao vivo: https://alpharadar-b3.up.railway.app/), uma plataforma de análise de investimentos com motor de cálculo em Python/FastAPI, dashboard em Next.js, 39 testes e CI no GitHub Actions; e 2) Build in Public (repositório: https://github.com/Bersdev/Build_In_Public e app ao vivo: https://build-in-public-rho.vercel.app/), um aplicativo para acompanhar a evolução nos estudos de programação com FastAPI, React e PostgreSQL." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Gabriel Bernardino desenvolveu e publicou três projetos principais: 1) AlphaRadar B3 (repositório: https://github.com/Bersdev/Alpharadar-B3 e demo ao vivo: https://alpharadar-b3.up.railway.app/), uma plataforma de análise de investimentos com motor de cálculo em Python/FastAPI, dashboard em Next.js, 39 testes e CI no GitHub Actions; e 2) Build in Public (repositório: https://github.com/Bersdev/Build_In_Public e app ao vivo: https://build-in-public-rho.vercel.app/), um aplicativo para acompanhar a evolução nos estudos de programação com FastAPI, React e PostgreSQL; e 3) Orçamento Facilitado (app ao vivo: https://orcamento-facilitado-omega.vercel.app/), um micro-SaaS em PWA para prestadores de serviço criarem orçamentos pelo celular e enviarem por WhatsApp." }
           },
           {
             "@type": "Question",
@@ -297,7 +308,7 @@
         <p class="role" itemprop="jobTitle">Desenvolvedor de software em formação · Python e IA aplicada</p>
         <h1 itemprop="name">Gabriel Bernardino</h1>
         <p class="legal">Nome completo: <span itemprop="alternateName">Gabriel Bernardino dos Santos</span> (<span itemprop="alternateName">Bersdev</span>)</p>
-        <p class="lead" itemprop="description">Estudante de Engenharia de Software na UniSenai, em Londrina/PR. Desenvolvo em Python, FastAPI, React e TypeScript, com foco em back-end, análise de dados e IA aplicada. Autor dos projetos AlphaRadar B3 e Build in Public, e em busca da minha primeira oportunidade em TI.</p>
+        <p class="lead" itemprop="description">Estudante de Engenharia de Software na UniSenai, em Londrina/PR. Desenvolvo em Python, FastAPI, React e TypeScript, com foco em back-end, análise de dados e IA aplicada. Autor dos projetos AlphaRadar B3, Build in Public e Orçamento Facilitado, e em busca da minha primeira oportunidade em TI.</p>
         <div class="actions">
           <a class="btn primary" href="mailto:bernardinogabriel68@gmail.com" itemprop="email">Enviar e-mail</a>
           <a class="btn" href="https://www.linkedin.com/in/gabrielbersantos" target="_blank" rel="noopener me" itemprop="sameAs">LinkedIn</a>
@@ -313,14 +324,15 @@
         <h2 id="h-sobre">Aprendo construindo</h2>
         <div class="about-grid">
           <div class="card about-text">
-            <p>Tenho 17 anos (nascido em 12/05/2009), estou no 3º ano do Ensino Médio e vou cursar <strong>Engenharia de Software na UniSenai</strong>, em Londrina/PR. Sou autodidata: concluí o curso <strong>Python Development da FIAP (80 horas)</strong> e publiquei no GitHub dois projetos próprios, o <strong>AlphaRadar B3</strong> (análise de investimentos) e o <strong>Build in Public</strong> (acompanhamento de estudos).</p>
-            <p>Trabalho com <strong>Python</strong>, lógica de programação, funções, listas e dicionários, <strong>Git e GitHub</strong>, <strong>análise de dados com pandas</strong> e <strong>APIs de inteligência artificial</strong>. Nos projetos também usei <strong>FastAPI, React, Next.js, TypeScript, Tailwind CSS e PostgreSQL</strong>.</p>
+            <p>Tenho 17 anos (nascido em 12/05/2009), estou no 3º ano do Ensino Médio no CEFAR, em Fartura/SP, e vou cursar <strong>Engenharia de Software na UniSenai</strong>, em Londrina/PR. Sou autodidata: concluí o curso <strong>Python Development da FIAP (80 horas)</strong> e publiquei projetos próprios: o <strong>AlphaRadar B3</strong> (análise de investimentos), o <strong>Build in Public</strong> (acompanhamento de estudos) e o micro-SaaS <strong>Orçamento Facilitado</strong>.</p>
+            <p>Trabalho com <strong>Python</strong>, lógica de programação, funções, listas e dicionários, <strong>Git e GitHub</strong>, <strong>análise de dados com pandas</strong> e <strong>APIs de inteligência artificial</strong>. Nos projetos também usei <strong>FastAPI, React, Next.js, TypeScript, Tailwind CSS, PostgreSQL e Supabase</strong>.</p>
             <p>Tenho disciplina e constância nos estudos e inglês em nível iniciante/intermediário. Busco minha primeira oportunidade em TI, em <strong>Jovem Aprendiz ou estágio remoto</strong>, para aprender na prática, crescer em desenvolvimento de software, dados e IA aplicada e contribuir com dedicação.</p>
           </div>
           <dl class="card facts">
             <div><dt>Nome completo</dt><dd>Gabriel Bernardino dos Santos</dd></div>
             <div><dt>Nascimento</dt><dd><time itemprop="birthDate" datetime="2009-05-12">12/05/2009</time> (17 anos)</dd></div>
             <div><dt>Localização</dt><dd itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"><span itemprop="addressLocality">Londrina</span>, <span itemprop="addressRegion">PR</span> · <span itemprop="addressCountry">Brasil</span></dd></div>
+            <div><dt>Escola</dt><dd>CEFAR · Fartura/SP (3º ano do Ensino Médio)</dd></div>
             <div><dt>Idiomas</dt><dd>Português (nativo) · Inglês (iniciante/intermediário)</dd></div>
             <div><dt>E-mail</dt><dd><a href="mailto:bernardinogabriel68@gmail.com">bernardinogabriel68@gmail.com</a></dd></div>
             <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/gabrielbersantos" rel="me">linkedin.com/in/gabrielbersantos</a></dd></div>
@@ -338,7 +350,7 @@
           <div class="card stack-card"><h3>Back-end</h3><ul class="chips"><li class="chip">Python</li><li class="chip">FastAPI</li><li class="chip">Uvicorn</li><li class="chip">SQLAlchemy</li><li class="chip">Pydantic</li><li class="chip">REST APIs</li></ul></div>
           <div class="card stack-card"><h3>Dados e IA</h3><ul class="chips"><li class="chip">Pandas</li><li class="chip">NumPy</li><li class="chip">OpenAI</li><li class="chip">Claude</li><li class="chip">Groq</li><li class="chip">Análise de dados</li></ul></div>
           <div class="card stack-card"><h3>Front-end</h3><ul class="chips"><li class="chip">React</li><li class="chip">Next.js</li><li class="chip">TypeScript</li><li class="chip">Tailwind CSS</li><li class="chip">HTML5 semântico</li><li class="chip">Vite</li></ul></div>
-          <div class="card stack-card"><h3>Banco de dados e DevOps</h3><ul class="chips"><li class="chip">PostgreSQL</li><li class="chip">SQLite</li><li class="chip">Git</li><li class="chip">GitHub</li><li class="chip">GitHub Actions</li><li class="chip">Pytest</li><li class="chip">Vitest</li></ul></div>
+          <div class="card stack-card"><h3>Banco de dados e DevOps</h3><ul class="chips"><li class="chip">PostgreSQL</li><li class="chip">Supabase</li><li class="chip">SQLite</li><li class="chip">Git</li><li class="chip">GitHub</li><li class="chip">GitHub Actions</li><li class="chip">Pytest</li><li class="chip">Vitest</li></ul></div>
         </div>
       </div>
     </section>
@@ -350,7 +362,7 @@
         <div class="timeline">
           <div class="card step"><time>Em breve</time><div><h3>Engenharia de Software · UniSenai (Londrina/PR)</h3><p>Graduação em Engenharia de Software.</p></div></div>
           <div class="card step"><time>Concluído</time><div><h3>Python Development · FIAP</h3><p>Curso de 80 horas com foco em lógica de programação, funções, listas, dicionários e Python aplicado.</p></div></div>
-          <div class="card step"><time>Cursando</time><div><h3>Ensino Médio · 3º ano</h3><p>Concluindo o Ensino Médio em Londrina/PR.</p></div></div>
+          <div class="card step"><time>Cursando</time><div><h3>Ensino Médio · 3º ano · CEFAR</h3><p>Cursando o 3º ano do Ensino Médio no CEFAR, em Fartura/SP.</p></div></div>
         </div>
       </div>
     </section>
@@ -380,6 +392,15 @@
               <a class="btn" href="https://github.com/Bersdev/Build_In_Public" target="_blank" rel="noopener">Repositório GitHub ↗</a>
             </div>
           </article>
+          <article class="card project">
+            <span class="num">03</span>
+            <h3>Orçamento Facilitado</h3>
+            <p>Micro-SaaS em formato PWA mobile-first para prestadores de serviço (eletricistas, técnicos, pintores, pedreiros e outros) criarem orçamentos profissionais pelo celular em menos de 60 segundos. O orçamento vai por link ou PDF A4 no WhatsApp, e o cliente aprova com 1 clique e paga o sinal por QR Code PIX.</p>
+            <ul class="chips"><li class="chip">Next.js</li><li class="chip">React</li><li class="chip">TypeScript</li><li class="chip">Tailwind CSS</li><li class="chip">Supabase</li><li class="chip">PWA</li><li class="chip">PIX</li><li class="chip">Vercel</li></ul>
+            <div class="actions">
+              <a class="btn primary" href="https://orcamento-facilitado-omega.vercel.app/" target="_blank" rel="noopener">Ver demo ao vivo ↗</a>
+            </div>
+          </article>
         </div>
       </div>
     </section>
@@ -392,7 +413,7 @@
           <details open><summary>Quem é Gabriel Bernardino (Gabriel Bernardino dos Santos)?</summary><p>Gabriel Bernardino (Gabriel Bernardino dos Santos) é um desenvolvedor de software em formação de Londrina/PR, Brasil, estudante de Engenharia de Software na UniSenai. Foca em desenvolvimento back-end com Python, FastAPI, análise de dados com pandas e IA aplicada.</p></details>
           <details><summary>Qual a idade e data de nascimento de Gabriel Bernardino?</summary><p>Gabriel Bernardino dos Santos nasceu em 12 de maio de 2009 (12/05/2009) e tem 17 anos.</p></details>
           <details><summary>Qual o LinkedIn, GitHub e e-mail de Gabriel Bernardino dos Santos?</summary><p>LinkedIn: <a href="https://www.linkedin.com/in/gabrielbersantos">linkedin.com/in/gabrielbersantos</a><br>GitHub: <a href="https://github.com/Bersdev">github.com/Bersdev</a><br>E-mail: <a href="mailto:bernardinogabriel68@gmail.com">bernardinogabriel68@gmail.com</a></p></details>
-          <details><summary>Quais projetos Gabriel Bernardino publicou?</summary><p><strong>AlphaRadar B3:</strong> <a href="https://github.com/Bersdev/Alpharadar-B3">repositório</a> e <a href="https://alpharadar-b3.up.railway.app/">demo ao vivo</a>.<br><strong>Build in Public:</strong> <a href="https://github.com/Bersdev/Build_In_Public">repositório</a> e <a href="https://build-in-public-rho.vercel.app/">app ao vivo</a>.</p></details>
+          <details><summary>Quais projetos Gabriel Bernardino publicou?</summary><p><strong>Orçamento Facilitado:</strong> <a href="https://orcamento-facilitado-omega.vercel.app/">app ao vivo</a>.<br><strong>AlphaRadar B3:</strong> <a href="https://github.com/Bersdev/Alpharadar-B3">repositório</a> e <a href="https://alpharadar-b3.up.railway.app/">demo ao vivo</a>.<br><strong>Build in Public:</strong> <a href="https://github.com/Bersdev/Build_In_Public">repositório</a> e <a href="https://build-in-public-rho.vercel.app/">app ao vivo</a>.</p></details>
           <details><summary>Gabriel está disponível para estágio ou Jovem Aprendiz?</summary><p>Sim. Gabriel busca sua primeira oportunidade em TI, como estágio ou Jovem Aprendiz em regime 100% remoto.</p></details>
         </div>
       </div>
