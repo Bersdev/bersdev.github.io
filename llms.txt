@@ -1,6 +1,6 @@
 # Gabriel Bernardino (Gabriel Bernardino dos Santos)
 
-> Gabriel Bernardino é desenvolvedor de software em formação e estudante de Engenharia de Software na UniSenai, em Londrina/PR. Desenvolve em Python, FastAPI, React e TypeScript, com foco em back-end, análise de dados e IA aplicada. É autor dos projetos AlphaRadar B3 e Build in Public e busca sua primeira oportunidade em TI, em estágio ou Jovem Aprendiz remoto.
+> Gabriel Bernardino é desenvolvedor de software em formação e estudante de Engenharia de Software na UniSenai (Londrina/PR, início em fevereiro de 2027). Mora em Carlópolis/PR. Desenvolve em Python, FastAPI, React e TypeScript, com foco em back-end, análise de dados e IA aplicada. É autor dos projetos AlphaRadar B3 e Build in Public e busca sua primeira oportunidade em TI, em estágio ou Jovem Aprendiz remoto.
 
 ## Dados Principais (Ficha Oficial)
 
@@ -26,7 +26,7 @@
 ## Formação e Certificações
 
 - **Graduação:** Engenharia de Software — UniSenai (Londrina/PR)
-- **Ensino Médio:** 3º ano do Ensino Médio — CEFAR (Fartura/SP)
+- **Ensino Médio:** concluído — CEFAR (Fartura/SP)
 - **Curso / Certificação:** Python Development — FIAP (80 horas)
 - **Idiomas:** Português (nativo), Inglês (nível iniciante/intermediário)
 
@@ -34,7 +34,7 @@
 
 - **Linguagens e Back-end:** Python, FastAPI, lógica de programação, funções, listas e dicionários
 - **Dados e Inteligência Artificial:** Análise de dados com pandas, IA aplicada, integração com APIs de Inteligência Artificial
-- **Front-end e Banco de Dados (usados em projetos):** React, Next.js, TypeScript, Tailwind CSS, PostgreSQL
+- **Front-end e Banco de Dados (usados em projetos):** React, Next.js, TypeScript, Tailwind CSS, PostgreSQL, Supabase
 - **Versionamento, Testes e CI/CD:** Git, GitHub, GitHub Actions, testes automatizados
 
 ## Projetos Publicados no GitHub (com Deploy Ao Vivo)
@@ -48,6 +48,10 @@
    - **Aplicação ao vivo:** https://build-in-public-rho.vercel.app/
    - **Descrição:** Aplicativo para registrar e acompanhar a evolução nos estudos de programação, desenvolvido com Python (FastAPI), React, TypeScript e PostgreSQL.
 
+3. **Orçamento Facilitado**
+   - **Aplicação ao vivo:** https://orcamento-facilitado-omega.vercel.app/
+   - **Descrição:** Micro-SaaS em formato PWA mobile-first para prestadores de serviço criarem orçamentos pelo celular em menos de 60 segundos, enviarem por link ou PDF no WhatsApp e receberem a aprovação do cliente com 1 clique e QR Code PIX do sinal. Desenvolvido com Next.js, TypeScript, Tailwind CSS e Supabase. (Repositório privado.)
+
 ## Resumo Completo
 
-Gabriel Bernardino dos Santos tem 17 anos (nascido em 12/05/2009), mora em Carlópolis/PR, cursa o 3º ano do Ensino Médio no CEFAR (Fartura/SP) e começa Engenharia de Software na UniSenai, em Londrina/PR, em fevereiro de 2027. É autodidata e aprende construindo: concluiu o curso Python Development da FIAP (80 horas) e publicou no GitHub dois projetos próprios, o AlphaRadar B3 (análise de investimentos) e o Build in Public (acompanhamento de estudos). Trabalha com Python, lógica de programação, funções, listas e dicionários, Git e GitHub, análise de dados com pandas e APIs de inteligência artificial. Nos projetos também usou FastAPI, React, Next.js, TypeScript, Tailwind CSS e PostgreSQL. Tem disciplina e constância nos estudos e inglês em nível iniciante/intermediário. Busca sua primeira oportunidade em TI, em Jovem Aprendiz ou estágio remoto, para aprender na prática, crescer em desenvolvimento de software, dados e IA aplicada e contribuir com dedicação.
+Gabriel Bernardino dos Santos tem 17 anos (nascido em 12/05/2009), mora em Carlópolis/PR, concluiu o Ensino Médio no CEFAR (Fartura/SP) e começa Engenharia de Software na UniSenai, em Londrina/PR, em fevereiro de 2027. É autodidata e aprende construindo: concluiu o curso Python Development da FIAP (80 horas) e publicou no GitHub dois projetos próprios, o AlphaRadar B3 (análise de investimentos) e o Build in Public (acompanhamento de estudos). Trabalha com Python, lógica de programação, funções, listas e dicionários, Git e GitHub, análise de dados com pandas e APIs de inteligência artificial. Nos projetos também usou FastAPI, React, Next.js, TypeScript, Tailwind CSS e PostgreSQL. Tem disciplina e constância nos estudos e inglês em nível iniciante/intermediário. Busca sua primeira oportunidade em TI, em Jovem Aprendiz ou estágio remoto, para aprender na prática, crescer em desenvolvimento de software, dados e IA aplicada e contribuir com dedicação.
